@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div class="container mb-5 mt-5">
+			  
+        <div class="card">
+           <div class="row">
+               <div class="col-md-12">
+                   <h3 class="text-center mb-5">
+                       Nested comment section
+                   </h3>
+                   <div class="row">
+                       <div class="col-md-12">
+                           <div class="media" id="content1">
+                            
+                               <img class="mr-3 rounded-circle" alt="Bootstrap Media Preview" src="images/bg.png" />
+                               <div class="media-body">
+                                   <div class="row">
+                                    <div class="col-8 d-flex">
+                                       <h5>Bill Gates</h5>
+                                       <span>- 2 hours ago</span>
+                                    </div>
+                                    
+                                    <div class="col-4">
+                                    
+                                    <div class="pull-middle reply" id="reply1">
+                                    
+                                   <a href="#"><span><i class="fa -reply"></i> Replies</span></a>
+                                    
+                                    </div>
+                                    <div class="pull-middle reply" id="reply2">
+                                    
+                                        <a href="#"><span><i class="fa -reply"></i> Replies-to-Replies</span></a>
+                                         
+                                         </div>
+                                         
+                                             
+                                    
+                                    </div>
+                                   </div>	
+                                   
+                                   
+                                   
+                                   Content1
+                                   
+                                   <div class="media mt-4 hidden" id="comment1" dataset="first-comment">
+                                        <a class="pr-3" href="#"><img class="rounded-circle" alt="Bootstrap Media Another Preview" src="images/av1.png" /></a>
+                                       <div class="media-body">
+                                               
+                                           <div class="row">
+                                    <div class="col-12 d-flex">
+                                       <h5>Simona Disa</h5>
+                                       <span>- 3 hours ago</span>
+                                       
+                                    </div>
+                                    
+                                    
+                                   
+                                   </div>
+                                   
+                                   
+
+                                           First Reply to First Content
+                                       </div>
+                                   </div>
+                                   
+                                   
+                                
+                               </div>
+                           </div>
+                           <div class="media" id="content2">
+                            <img class="mr-3 rounded-circle" alt="Bootstrap Media Preview" src="images/jb.png" />
+                            <div class="media-body">
+                                <div class="row">
+                                 <div class="col-8 d-flex">
+                                    <h5>Jeff Bezos</h5>
+                                    <span>- 2 hours ago</span>
+                                 </div>
+                                 
+                                 <div class="col-4">
+                                 
+                                
+                                 </div>
+                                </div>	
+                                
+                                
+                                
+                                Content2
+                                
+                                <div class="media mt-4 hidden" id="comment2">
+                                     <a class="pr-3" href="#"><img class="rounded-circle" alt="Bootstrap Media Another Preview" src="images/av2.png" /></a>
+                                    <div class="media-body">
+                                            
+                                        <div class="row">
+                                 <div class="col-12 d-flex">
+                                    <h5>Safra Catz</h5>
+                                    <span>- 3 hours ago</span>
+                                 </div>
+                                 
+                                
+                                </div>
+                              
+                                       First Reply to Content2
+                                    </div>
+                                </div>
+                                <div class="media mt-4 hidden" id="comment2-2">
+                                    <a class="pr-3" href="#"><img class="rounded-circle" alt="Bootstrap Media Another Preview" src="images/av7.png" /></a>
+                                   <div class="media-body">
+                                           
+                                       <div class="row">
+                                <div class="col-12 d-flex">
+                                    
+                                   <h5>Tom Hardy</h5>
+                                   <span>- 3 hours ago</span>
+                                </div>
+                                
+                               
+                               </div>
+                               
+
+                                      Second Reply to Content2
+                                   </div>
+                               </div>
+                               
+                                
+                           
+                            </div>
+                        </div>
+                        <div class="media" id="content3">
+                            <img class="mr-3 rounded-circle" alt="Bootstrap Media Preview" src="images/lp.png" />
+                            <div class="media-body">
+                                <div class="row">
+                                 <div class="col-8 d-flex">
+                                    <h5>Larry Page</h5>
+                                    <span>- 2 hours ago</span>
+                                 </div>
+                                 
+                                 <div class="col-4">
+                                 
+                                 
+                                 
+                                 </div>
+                                </div>	
+                                
+                                
+                                
+                                Content3
+                                
+                                <div class="media mt-4 hidden" id="comment3">
+                                     <a class="pr-3" href="#"><img class="rounded-circle" alt="Bootstrap Media Another Preview" src="images/av3.png" /></a>
+                                    <div class="media-body">
+                                            
+                                        <div class="row">
+                                 <div class="col-12 d-flex">
+                                    <h5>Margot Robbie</h5>
+                                    <span>- 3 hours ago</span>
+                                 </div>
+                                 
+                                
+                                </div>
+
+                                        First Reply to Content3
+                                    </div>
+                                </div>
+                                
+                           
+                            </div>
+                        </div>
+                        <div class="media" id="content4">
+                            <img class="mr-3 rounded-circle" alt="Bootstrap Media Preview" src="images/mz.png" />
+                            <div class="media-body">
+                                <div class="row">
+                                 <div class="col-8 d-flex">
+                                    <h5>Mark Zuckerberg</h5>
+                                    <span>- 2 hours ago</span>
+                                 </div>
+                                 
+                                 <div class="col-4">
+                                 
+                                 
+                                 
+                                 </div>
+                                </div>	
+                                
+                                
+                                
+                                Content4
+                                
+                                <div class="media mt-4 hidden" id="comment4">
+                                     <a class="pr-3" href="#"><img class="rounded-circle" alt="Bootstrap Media Another Preview" src="images/av4.png" /></a>
+                                    <div class="media-body">
+                                            
+                                        <div class="row">
+                                 <div class="col-12 d-flex">
+                                    <h5>Tom Hardy</h5>
+                                    <span>- 3 hours ago</span>
+                                 </div>
+                                 
+                                
+                                </div>
+                                
+                                        First Reply to Content 4
+                                    </div>
+                                </div>
+                                <div class="media mt-4 hidden" id="comment4-4">
+                                    <a class="pr-3" href="#"><img class="rounded-circle" alt="Bootstrap Media Another Preview" src="images/av8.png" /></a>
+                                   <div class="media-body">
+                                    
+                                           
+                                       <div class="row">
+                                <div class="col-12 d-flex">
+                                   <h5>Simona Disa</h5>
+                                   <span>- 3 hours ago</span>
+                                </div>
+                                
+                               
+                               </div>
+                               
+
+                                       Second Reply to Content 4
+                                   </div>
+                               </div>
+                                
+                                
+                            </div>
+                        </div>
+                           
+                           
+                           
+                           
+                           <div class="media mt-4">
+                               <img class="mr-3 rounded-circle" alt="Bootstrap Media Preview" src="images/sj.png" />
+                               <div class="media-body">
+                                   <div class="row">
+                                    <div class="col-8 d-flex">
+                                       <h5>Steve Jobs</h5>
+                                       <span>- 2 hours ago</span>
+                                    </div>
+                                    
+                                    <div class="col-4">
+                                    
+                                    
+                                    
+                                    </div>
+                                   </div>		
+                                   
+                                   Content5
+                                   <div class="media mt-4 hidden" id="comment5">
+                                        <a class="pr-3" href="#"><img class="rounded-circle" alt="Bootstrap Media Another Preview" src="images/av6.png" /></a>
+                                       <div class="media-body">
+                                               
+                                           <div class="row">
+                                    <div class="col-12 d-flex">
+                                       <h5>Andy flower</h5>
+                                       <span>- 5 hours ago</span>
+                                    </div>
+                                    
+                                    
+                                   </div>
+
+                                           First Reply to Content 5
+                                       </div>
+                                   </div>
+                                   
+                                   
+                                   
+                                 
+                               </div>
+                           </div>
+                           
+                       </div>
+                   </div>
+               </div>
+           </div>
+           </div>
+       </div>
+    <script src="script.js"></script>
+</body>
+</html>
